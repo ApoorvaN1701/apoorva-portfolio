@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Apoorva Nandigama — Electrical & Wireless Engineer. IEEE-published MS graduate specializing in hardware validation, Python automation, and 5G wireless systems."/>
+  <title>Apoorva Nandigama — Electrical & Wireless Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23F0A500'/><text y='.9em' font-size='52' x='50%' text-anchor='middle' font-family='monospace' font-weight='bold' fill='%230D1117'>AN</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">AN<span class="logo-dot">.</span></a>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="assets/resume/Apoorva_Nandigama_Resume.pdf" download class="btn-resume">
+          <!-- ⚠️ PLACEHOLDER: Place resume PDF in assets/resume/ named Apoorva_Nandigama_Resume.pdf -->
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&to=vaishnaviapoorva@gmail.com&su=Hi%20Apoorva%2C%20let%27s%20connect!" target="_blank" rel="noopener" class="btn-contact-nav">Email Me</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#publications" class="mobile-link">Publications</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#education" class="mobile-link">Education</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="assets/resume/Apoorva_Nandigama_Resume.pdf" download class="mobile-link">⬇ Download Resume</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="section-hero">
+      <canvas id="signal-canvas"></canvas>
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="hero-photo-wrap">
+            <img src="assets/images/profile.jpg" alt="Apoorva Nandigama" class="hero-photo"
+              onerror="this.style.display='none';document.querySelector('.hero-photo-placeholder').style.display='flex';"/>
+            <div class="hero-photo-placeholder">AN</div>
+          </div>
+
+          <h1 class="hero-name">Apoorva<br/><span class="hero-name-last">Nandigama</span></h1>
+          <p class="hero-role">Electrical &amp; Wireless Engineer</p>
+          <p class="hero-spec">Hardware Validation · Python Automation · 5G Systems</p>
+          <p class="hero-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Cincinnati, OH
+          </p>
+          <p class="hero-summary">
+            IEEE NAECON 2025 published MS Electrical Engineering graduate with hands-on experience in <strong>circuit validation</strong>, <strong>bench instrumentation</strong>, <strong>Python test automation</strong>, and <strong>wireless systems</strong> including 5G NR, OFDM, and MIMO.
+          </p>
+          <div class="hero-ctas">
+            <a href="#experience" class="btn-primary">View My Work</a>
+            <a href="https://mail.google.com/mail/?view=cm&to=vaishnaviapoorva@gmail.com&su=Hi%20Apoorva%2C%20let%27s%20connect!" target="_blank" rel="noopener" class="btn-secondary">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://linkedin.com/in/apoorva-nandigama-7312631b0" target="_blank" rel="noopener" class="social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <span class="social-sep"></span>
+            <a href="https://github.com/ApoorvaN1701" target="_blank" rel="noopener" class="social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              GitHub
+            </a>
+            <span class="social-sep"></span>
+            <a href="mailto:vaishnaviapoorva@gmail.com" class="social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="spec-card">
+            <div class="spec-card-label">// core competencies</div>
+            <div class="spec-grid">
+              <div class="spec-item">
+                <div class="spec-icon">⚡</div>
+                <div class="spec-text">
+                  <div class="spec-title">Hardware Validation</div>
+                  <div class="spec-sub">Oscilloscope · Signal Gen · RLC/MOSFET · PLC</div>
+                </div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon">📡</div>
+                <div class="spec-text">
+                  <div class="spec-title">Wireless Systems</div>
+                  <div class="spec-sub">5G NR · OFDM · MIMO · Rayleigh Fading</div>
+                </div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon">🐍</div>
+                <div class="spec-text">
+                  <div class="spec-title">Python Automation</div>
+                  <div class="spec-sub">NumPy · SciPy · pandas · LabVIEW</div>
+                </div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon">🧠</div>
+                <div class="spec-text">
+                  <div class="spec-title">ML / AI</div>
+                  <div class="spec-sub">PyTorch · TensorFlow · DQN · OpenCV</div>
+                </div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon">🔬</div>
+                <div class="spec-text">
+                  <div class="spec-title">Embedded Systems</div>
+                  <div class="spec-sub">Arduino · Embedded C · GSM · Bluetooth</div>
+                </div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-icon">📊</div>
+                <div class="spec-text">
+                  <div class="spec-title">Test & Simulation</div>
+                  <div class="spec-sub">Monte Carlo · DFT/FFT · KiCad · MATLAB</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS STRIP -->
+    <div class="metrics-strip">
+      <div class="metrics-grid">
+        <div class="metric-item reveal">
+          <div class="metric-val"><span class="count" data-target="3">0</span></div>
+          <div class="metric-label">IEEE / IGI Publications</div>
+        </div>
+        <div class="metric-item reveal">
+          <div class="metric-val"><span class="count" data-target="90">0</span><span class="metric-unit">%</span></div>
+          <div class="metric-label">Bandwidth Reduction (IEEE Research)</div>
+        </div>
+        <div class="metric-item reveal">
+          <div class="metric-val"><span class="count" data-target="2400">0</span><span class="metric-unit">+</span></div>
+          <div class="metric-label">Test Configurations Run</div>
+        </div>
+        <div class="metric-item reveal">
+          <div class="metric-val"><span class="count" data-target="95">0</span><span class="metric-unit">%</span></div>
+          <div class="metric-label">IoT Detection Accuracy</div>
+        </div>
+        <div class="metric-item reveal">
+          <div class="metric-val"><span class="count" data-target="5">0</span></div>
+          <div class="metric-label">Industry Roles &amp; Internships</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT / SKILLS -->
+    <section id="about" class="section-about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-left reveal">
+            <p class="eyebrow">// about</p>
+            <h2 class="section-heading">Hardware engineer.<br/>Researcher.<br/>Systems thinker.</h2>
+            <p class="about-bio">
+              I work at the intersection of physical hardware and intelligent software — bench-testing circuits at Mitsubishi Electric by day and building wireless simulation frameworks by research. My work spans automotive PLC programming, RF link budget analysis, and IEEE-published point cloud streaming algorithms.
+            </p>
+            <p class="about-bio">
+              My approach is measurement-first: every claim is backed by data, every system is validated against specification. Whether I'm probing a MOSFET gate with an oscilloscope or running 2,400 Monte Carlo configurations in Python, the goal is the same — <strong>quantified, reproducible results.</strong>
+            </p>
+          </div>
+          <div class="about-right reveal">
+            <div class="skills-panel">
+              <div class="skill-row">
+                <span class="skill-label">Bench &amp; Hardware</span>
+                <div class="skill-tags">
+                  <span class="tag">Oscilloscope</span><span class="tag">Signal Generator</span>
+                  <span class="tag">Multimeter</span><span class="tag">RLC Filters</span>
+                  <span class="tag">MOSFET</span><span class="tag">Optocoupler</span>
+                  <span class="tag">PLC (GX Works2)</span><span class="tag">iQ-R Servo</span>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span class="skill-label">Programming</span>
+                <div class="skill-tags">
+                  <span class="tag">Python</span><span class="tag">MATLAB</span>
+                  <span class="tag">LabVIEW</span><span class="tag">Embedded C</span>
+                  <span class="tag">Git</span><span class="tag">Linux CLI</span>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span class="skill-label">Wireless &amp; RF</span>
+                <div class="skill-tags">
+                  <span class="tag">5G NR</span><span class="tag">OFDM</span>
+                  <span class="tag">MIMO</span><span class="tag">HARQ</span>
+                  <span class="tag">Rayleigh Fading</span><span class="tag">RF Link Budget</span>
+                  <span class="tag">BLE</span><span class="tag">Wi-Fi 802.11ac/ax</span>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span class="skill-label">ML &amp; AI</span>
+                <div class="skill-tags">
+                  <span class="tag">PyTorch</span><span class="tag">TensorFlow</span>
+                  <span class="tag">scikit-learn</span><span class="tag">OpenCV</span>
+                  <span class="tag">DQN / RL</span><span class="tag">CUDA 12.5</span>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span class="skill-label">Test &amp; Simulation</span>
+                <div class="skill-tags">
+                  <span class="tag">Monte Carlo</span><span class="tag">DFT/FFT</span>
+                  <span class="tag">Statistical Analysis</span><span class="tag">KiCad</span>
+                  <span class="tag">SolidWorks</span><span class="tag">Falstad</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-experience">
+      <div class="container">
+        <p class="eyebrow reveal">// work experience</p>
+        <h2 class="section-heading reveal">Industry Roles</h2>
+        <div class="exp-list">
+
+          <!-- Mitsubishi -->
+          <div class="exp-item reveal">
+            <div class="exp-meta">
+              <span class="exp-period">Feb 2026 – Present</span>
+              <span class="exp-loc">Mason, OH</span>
+            </div>
+            <div class="exp-card current-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Training &amp; Development Engineering Intern</h3>
+                  <p class="exp-company">Mitsubishi Electric Automotive America</p>
+                  <p class="exp-collab">Siemens Industry Research Collaboration</p>
+                </div>
+                <span class="badge-current">Current</span>
+              </div>
+              <ul class="exp-bullets">
+                <li>Performing <strong>component-level circuit validation</strong> in an active automotive manufacturing environment — building and bench-testing RLC filters, MOSFET motor drive, crowbar overvoltage protection, and optocoupler isolation circuits.</li>
+                <li>Measuring electrical behaviour using <strong>oscilloscopes, signal generators, and multimeters</strong>; documenting test conditions, observed results, and structured root cause analysis.</li>
+                <li>Programmed <strong>Mitsubishi Q-Series PLC (GX Works2)</strong> for production automation; independently expanded to iQ-R platform (CC-Link IE Field) for servo commissioning.</li>
+              </ul>
+              <div class="exp-tags">
+                <span class="tag-sm">Circuit Validation</span><span class="tag-sm">PLC</span>
+                <span class="tag-sm">Oscilloscope</span><span class="tag-sm">GX Works2</span><span class="tag-sm">iQ-R</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- UC Research -->
+          <div class="exp-item reveal">
+            <div class="exp-meta">
+              <span class="exp-period">Feb 2024 – Dec 2024</span>
+              <span class="exp-loc">Cincinnati, OH</span>
+            </div>
+            <div class="exp-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Research Assistant — Electrical Engineering</h3>
+                  <p class="exp-company">University of Cincinnati</p>
+                </div>
+                <span class="badge-research">Research</span>
+              </div>
+              <ul class="exp-bullets">
+                <li>Built <strong>Python automated test pipeline</strong> in Siemens collaboration — NumPy, SciPy, Open3D on Tesla V100; 2,400+ configurations, pass/fail validation, metric extraction, statistical analysis, and structured engineering reports.</li>
+                <li>Research achieved <strong>90% bandwidth reduction</strong> with F-score 88.774%; published <strong>IEEE NAECON 2025</strong> (DOI: 10.1109/NAECON65708.2025.11235332).</li>
+              </ul>
+              <div class="exp-tags">
+                <span class="tag-sm">Python</span><span class="tag-sm">NumPy</span><span class="tag-sm">SciPy</span>
+                <span class="tag-sm">Open3D</span><span class="tag-sm">Tesla V100</span><span class="tag-sm">IEEE Publication</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pentagon -->
+          <div class="exp-item reveal">
+            <div class="exp-meta">
+              <span class="exp-period">Jul 2022 – Nov 2022</span>
+              <span class="exp-loc">India</span>
+            </div>
+            <div class="exp-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">IoT Hardware Validation Intern</h3>
+                  <p class="exp-company">Pentagon Rugged Systems</p>
+                </div>
+              </div>
+              <ul class="exp-bullets">
+                <li>Designed and validated an <strong>embedded IoT hardware system</strong> integrating Arduino UNO, GSM SIM900, HC-05 Bluetooth, capacitive sensors, and LCD — 200+ lines embedded C firmware achieving <strong>~95% detection accuracy</strong> and sub-3-second alert latency.</li>
+                <li>Diagnosed root cause firmware failure through systematic fault isolation (SIM900 PDU mode fix).</li>
+              </ul>
+              <div class="exp-tags">
+                <span class="tag-sm">Arduino</span><span class="tag-sm">Embedded C</span>
+                <span class="tag-sm">GSM SIM900</span><span class="tag-sm">IoT</span><span class="tag-sm">Fault Isolation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- VI Solutions + NPHSAT (side by side) -->
+          <div class="exp-item reveal">
+            <div class="exp-meta">
+              <span class="exp-period">May – Jun 2021</span>
+              <span class="exp-loc">India</span>
+            </div>
+            <div class="exp-dual">
+              <div class="exp-card">
+                <h3 class="exp-role">Test Automation Intern</h3>
+                <p class="exp-company">VI Solutions</p>
+                <ul class="exp-bullets">
+                  <li>Built <strong>LabVIEW automated test framework</strong> for embedded circuit validation — signal acquisition, pass/fail logic, and automated test report generation.</li>
+                </ul>
+                <div class="exp-tags">
+                  <span class="tag-sm">LabVIEW</span><span class="tag-sm">Test Automation</span>
+                </div>
+              </div>
+              <div class="exp-card">
+                <h3 class="exp-role">RF Link Budget Intern</h3>
+                <p class="exp-company">NPHSAT Systems</p>
+                <ul class="exp-bullets">
+                  <li>Computed <strong>RF link budgets</strong> for satellite telemetry downlink — path loss, noise figure, SNR margins, and receiver sensitivity across atmospheric propagation scenarios.</li>
+                </ul>
+                <div class="exp-tags">
+                  <span class="tag-sm">RF Link Budget</span><span class="tag-sm">SNR</span><span class="tag-sm">Satellite</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section-publications">
+      <div class="container">
+        <p class="eyebrow reveal">// peer-reviewed research</p>
+        <h2 class="section-heading reveal">Publications</h2>
+        <div class="pub-list">
+
+          <div class="pub-card featured reveal">
+            <div class="pub-badge-wrap">
+              <span class="pub-venue-badge">IEEE NAECON 2025</span>
+              <span class="pub-featured-tag">Featured</span>
+            </div>
+            <h3 class="pub-title">Efficient Point Cloud Streaming via Curvature and Edge-Aware Sampling</h3>
+            <p class="pub-meta">Siemens Collaboration · University of Cincinnati · DOI: 10.1109/NAECON65708.2025.11235332</p>
+            <p class="pub-desc">Achieved <strong>90% bandwidth reduction</strong> and F-score 88.774% across 2,400 test configurations and 8 ShapeNet categories using curvature and edge-aware sampling on point cloud data streams.</p>
+            <div class="pub-tools">
+              <span class="tag-sm">Python</span><span class="tag-sm">NumPy</span><span class="tag-sm">SciPy</span>
+              <span class="tag-sm">Open3D</span><span class="tag-sm">CUDA 12.5</span><span class="tag-sm">Tesla V100</span>
+            </div>
+            <a href="https://doi.org/10.1109/NAECON65708.2025.11235332" target="_blank" rel="noopener" class="pub-doi-link">
+              View on IEEE Xplore →
+            </a>
+          </div>
+
+          <div class="pub-card reveal">
+            <div class="pub-badge-wrap">
+              <span class="pub-venue-badge">IDCIoT 2023</span>
+            </div>
+            <h3 class="pub-title">ANN Weather Monitoring</h3>
+            <p class="pub-meta">DOI: 10.1109/IDCIoT56793.2023.10053534</p>
+            <p class="pub-desc">Artificial neural network-based system for IoT weather monitoring and prediction, demonstrating ML integration with embedded sensor networks.</p>
+            <a href="https://doi.org/10.1109/IDCIoT56793.2023.10053534" target="_blank" rel="noopener" class="pub-doi-link">View on IEEE Xplore →</a>
+          </div>
+
+          <div class="pub-card reveal">
+            <div class="pub-badge-wrap">
+              <span class="pub-venue-badge">IGI Global</span>
+            </div>
+            <h3 class="pub-title">Smart Weapon Detection</h3>
+            <p class="pub-meta">IGI Global Publication</p>
+            <p class="pub-desc">Research on intelligent weapon detection systems, applying computer vision and machine learning techniques to security and surveillance applications.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-projects">
+      <div class="container">
+        <p class="eyebrow reveal">// engineering projects</p>
+        <h2 class="section-heading reveal">Selected Projects</h2>
+        <div class="proj-grid">
+
+          <div class="proj-card reveal">
+            <div class="proj-top">
+              <span class="proj-domain">AI · Wireless</span>
+            </div>
+            <h3 class="proj-title">DQN Adaptive Modulation — AI for 5G Networks</h3>
+            <p class="proj-desc">Developed a <strong>PyTorch DQN agent</strong> for adaptive modulation and coding scheme selection. Agent observes real-time channel state (SNR, bandwidth, power) and autonomously selects QPSK, 16-QAM, or 64-QAM, replacing static threshold-based link adaptation. Reward converged above 1.10 after 5,000 training episodes.</p>
+            <div class="proj-tags">
+              <span class="tag-sm">PyTorch</span><span class="tag-sm">DQN</span><span class="tag-sm">Reinforcement Learning</span><span class="tag-sm">Python</span>
+            </div>
+          </div>
+
+          <div class="proj-card reveal">
+            <div class="proj-top">
+              <span class="proj-domain">Wireless · Simulation</span>
+            </div>
+            <h3 class="proj-title">Rayleigh Fading Channel Simulation — 5G NR Performance</h3>
+            <p class="proj-desc">Built a <strong>multipath channel simulation</strong> in MATLAB/Python — BER vs Eb/N0, SNR degradation, and ICI analysis under varying mobility and Doppler conditions for 5G NR performance benchmarking.</p>
+            <div class="proj-tags">
+              <span class="tag-sm">MATLAB</span><span class="tag-sm">Python</span><span class="tag-sm">5G NR</span><span class="tag-sm">Rayleigh Fading</span>
+            </div>
+          </div>
+
+          <div class="proj-card reveal">
+            <div class="proj-top">
+              <span class="proj-domain">Statistical · Radar</span>
+            </div>
+            <h3 class="proj-title">Monte Carlo Radar Detection Framework</h3>
+            <p class="proj-desc"><strong>Python statistical framework</strong> with 1,000+ Monte Carlo runs, automated P50–P99 reporting, and CDF visualization for radar detection performance analysis across varying signal conditions.</p>
+            <div class="proj-tags">
+              <span class="tag-sm">Python</span><span class="tag-sm">NumPy</span><span class="tag-sm">Matplotlib</span><span class="tag-sm">Monte Carlo</span>
+            </div>
+          </div>
+
+          <div class="proj-card reveal">
+            <div class="proj-top">
+              <span class="proj-domain">Embedded · Robotics</span>
+            </div>
+            <h3 class="proj-title">Stair-Climbing Wheelchair Robot</h3>
+            <p class="proj-desc">Designed and assembled an <strong>electromechanical prototype</strong> with Rocker-Bogie suspension, servo actuators, and HC-05 Bluetooth control — 200+ lines embedded C/Arduino firmware for remote operation on uneven terrain.</p>
+            <div class="proj-tags">
+              <span class="tag-sm">SolidWorks</span><span class="tag-sm">Arduino</span><span class="tag-sm">Embedded C</span><span class="tag-sm">HC-05 Bluetooth</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section id="education" class="section-education">
+      <div class="container">
+        <p class="eyebrow reveal">// education</p>
+        <h2 class="section-heading reveal">Academic Background</h2>
+        <div class="edu-grid">
+
+          <div class="edu-card reveal">
+            <div class="edu-gpa-badge">3.37 / 4.0</div>
+            <h3 class="edu-degree">M.S. Electrical Engineering</h3>
+            <p class="edu-spec">Specialization: Wireless Communications</p>
+            <p class="edu-school">University of Cincinnati</p>
+            <p class="edu-loc">Cincinnati, OH · Aug 2023 – Dec 2025</p>
+            <p class="edu-courses">Wireless Communications · DSP · ML for Engineers · Probability &amp; Random Processes</p>
+          </div>
+
+          <div class="edu-card reveal">
+            <div class="edu-gpa-badge top-gpa">9.08 / 10.0</div>
+            <h3 class="edu-degree">B.Tech. Electronics &amp; Communication Engineering</h3>
+            <p class="edu-spec">Specialization: Wireless Communication</p>
+            <p class="edu-school">KLEF University</p>
+            <p class="edu-loc">India · Jul 2019 – May 2023</p>
+          </div>
+
+        </div>
+
+        <!-- Certifications -->
+        <div class="certs-block reveal">
+          <p class="eyebrow" style="margin-bottom:1.2rem;">// certifications</p>
+          <div class="certs-grid">
+            <div class="cert-card">
+              <span class="cert-issuer">National Instruments</span>
+              <p class="cert-title">NI CLAD — LabVIEW Associate Developer</p>
+              <p class="cert-meta">NI CoE, KLEF University · 2020 · 40 Hours</p>
+            </div>
+            <div class="cert-card">
+              <span class="cert-issuer">Toyota Kirloskar Motor</span>
+              <p class="cert-title">Hybrid Electric Vehicle Technology — Basics</p>
+              <p class="cert-meta">May 2025</p>
+            </div>
+            <div class="cert-card">
+              <span class="cert-issuer">Databricks</span>
+              <p class="cert-title">Generative AI Fundamentals</p>
+              <p class="cert-meta">March 2025</p>
+            </div>
+            <div class="cert-card">
+              <span class="cert-issuer">Huawei</span>
+              <p class="cert-title">HCIA-AI Certification</p>
+              <p class="cert-meta">2022</p>
+            </div>
+            <div class="cert-card">
+              <span class="cert-issuer">Yonsei University · Coursera</span>
+              <p class="cert-title">Wireless Communications for Everybody</p>
+              <p class="cert-meta">2020</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-contact">
+      <div class="container">
+        <div class="contact-inner reveal">
+          <p class="eyebrow contact-eyebrow">// get in touch</p>
+          <h2 class="contact-heading">Open to Opportunities</h2>
+          <p class="contact-sub">
+              Open to hardware validation, RF/wireless engineering, and embedded systems roles — and open to relocation.
+          </p>
+          <div class="contact-actions">
+            <a href="https://mail.google.com/mail/?view=cm&to=vaishnaviapoorva@gmail.com&su=Hi%20Apoorva%2C%20let%27s%20connect!" target="_blank" rel="noopener" class="btn-contact-lg">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email Apoorva
+            </a>
+            <a href="assets/resume/Apoorva_Nandigama_Resume.pdf" download class="btn-dl-lg">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+          </div>
+          <div class="contact-details">
+            <span>(513) 390-7831</span>
+            <span class="contact-sep">·</span>
+            <a href="mailto:vaishnaviapoorva@gmail.com">vaishnaviapoorva@gmail.com</a>
+            <span class="contact-sep">·</span>
+            <a href="https://linkedin.com/in/apoorva-nandigama-7312631b0" target="_blank">LinkedIn</a>
+            <span class="contact-sep">·</span>
+            <a href="https://github.com/ApoorvaN1701" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-name">Apoorva Nandigama</span>
+      <span class="footer-copy">© 2025 · Cincinnati, OH</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
