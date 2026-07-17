@@ -1,0 +1,15 @@
+# JetBrains project files
+.idea/
+
+# Node / OS
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Misc
+.env
+
